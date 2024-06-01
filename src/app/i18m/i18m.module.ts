@@ -58,9 +58,9 @@ export class I18mModule {
 }
 
 export function translateLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
+  //return new TranslateHttpLoader(httpClient);
 
-  //return new TranslateHttpLoader(httpClient, './assets/i18n/', '.json'); // added on 01 June 2024
+  return new TranslateHttpLoader(httpClient, './assets/i18n/', '.json'); // added on 01 June 2024
 }
 
 export function translateCacheFactory(
