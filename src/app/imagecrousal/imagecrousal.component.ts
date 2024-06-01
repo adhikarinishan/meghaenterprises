@@ -106,7 +106,8 @@ export class ImagecrousalComponent implements OnInit {
     // for (let i = 1; i <= 6; i++) {
     for (let i = 1; i <= 3; i++) {
       const imgDt = {
-        imgUrl: '/assets/images/Building' + i + '.jpg',
+        //imgUrl: '/assets/images/Building' + i + '.jpg',
+        imgUrl: './assets/images/Building' + i + '.jpg', //changes on 01- June 2024
         imgAlt: 'Building' + i,
         imgSeg: i,
         imgTextColor: this.getImgTextColor(i),
