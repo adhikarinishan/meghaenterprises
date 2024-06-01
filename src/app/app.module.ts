@@ -26,6 +26,7 @@ import { TestComponent } from './test/test.component';
 import { WorkDonebyUsComponent } from './work-doneby-us/work-doneby-us.component';
 import { ConveyanceDeedComponent } from './services-of-society/conveyance-deed/conveyance-deed.component';
 import { DeemedConveyanceComponent } from './services-of-society/deemed-conveyance/deemed-conveyance.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 const icons = {
   alarm,
@@ -63,7 +64,7 @@ const icons = {
     NgbModule,
     IvyCarouselModule,
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
