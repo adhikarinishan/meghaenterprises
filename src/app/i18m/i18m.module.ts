@@ -55,11 +55,12 @@ export class I18mModule {
     //translate.use(browserLang.match(/en|ru/) ? browserLang : 'en');
     translate.use(browserLang.match(/en|mr|hi/) ? browserLang : 'en');
   }
- }
-
+}
 
 export function translateLoaderFactory(httpClient: HttpClient) {
-  return new TranslateHttpLoader(httpClient);
+  //return new TranslateHttpLoader(httpClient);
+
+  return new TranslateHttpLoader(httpClient, './assets/i18n/', '.json'); // added on 01 June 2024
 }
 
 export function translateCacheFactory(
