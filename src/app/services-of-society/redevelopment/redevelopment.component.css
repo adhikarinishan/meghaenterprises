@@ -1,0 +1,12 @@
+.grid-row > div {
+  padding: 10px;
+  margin: 5px 0;
+}
+.gridcontainer {
+  /* padding: 10px; */
+  word-wrap: break-word;
+}
+
+.sRegimg {
+  max-height: 651px !important;
+}

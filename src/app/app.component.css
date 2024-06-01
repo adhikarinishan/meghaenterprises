@@ -1,0 +1,16 @@
+.appNav {
+  margin-bottom: 100px;
+}
+.appfooter {
+  margin-bottom: 60px;
+}
+.container {
+  background-color: white;
+  box-shadow: 0 1px 9px 6px #e6e1e1;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1146px) {
+  .appNav {
+    margin-bottom: 142px !important;
+  }
+}

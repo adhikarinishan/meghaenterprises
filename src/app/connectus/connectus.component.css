@@ -1,0 +1,107 @@
+/* .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+} */
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  /* bottom:40px; */
+  bottom: 60px;
+  /* right:40px; */
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  box-shadow: 5px 5px 12px #999;
+  z-index: 100;
+  float: left;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+::ng-deep .tooltip-inner {
+  width: auto;
+  background-color: #070707;
+  position: relative;
+  overflow-y: auto;
+}
+/* a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  left: 0;
+  color: #FFF;
+  background-color: black;
+  width: 125px !important;
+  border-radius: 10px;
+  font-size: medium;
+} */
+
+/*
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #00FF00;
+  color: #111;
+  font-size: 150%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: -1.6em;
+  left: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  z-index: 99999;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
+} */
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background-color: #020202;
+  color: rgb(247, 241, 241);
+  font-size: 50%;
+  position: absolute;
+  padding: 1px 5px 2px 5px;
+  bottom: 1.87em;
+  right: 100%;
+  white-space: nowrap;
+  box-shadow: 1px 1px 3px #222222;
+  opacity: 0;
+  border: 1px solid #111111;
+  z-index: 1;
+  visibility: hidden;
+  border-radius: 5px;
+}

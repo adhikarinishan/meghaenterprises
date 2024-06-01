@@ -1,0 +1,172 @@
+<!-- <div>
+  <ngb-carousel [showNavigationArrows]="true" [showNavigationIndicators]="true" interval="20000" [keyboard]="true"
+    [pauseOnHover]="true" [wrap]="true" [activeId]="'sliderThree'">
+
+    <ng-template ngbSlide id="sliderOne">
+      <div class="picsum-img-wrapper">
+        <img src="https://via.placeholder.com/600/0000FF/808080C/" alt="Carousel One">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title</h3>
+        <p>Aenean malesuada nisi ut commodo semper.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide id="sliderTwo">
+      <div class="picsum-img-wrapper">
+        <img src="https://via.placeholder.com/600/FF0000/FFFFFF" alt="Carousel Two">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title</h3>
+        <p>Aenean malesuada nisi ut commodo semper, Sit amet sagittis dolor.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide id="sliderThree">
+      <div class="picsum-img-wrapper">
+        <img src="https://via.placeholder.com/600/FFFF00/000000" alt="Carousel Three">
+      </div>
+      <div class="carousel-caption">
+        <h3>Title</h3>
+        <p>Commodo semper sit amet sagittis dolor.</p>
+      </div>
+    </ng-template>
+
+  </ngb-carousel>
+</div> -->
+<!-- <div class="row">
+  <ngb-carousel #carousel [interval]="1000" [pauseOnHover]="pauseOnHover" [pauseOnFocus]="pauseOnFocus"
+    (slide)="onSlide($event)">
+    <ng-template ngbSlide *ngFor="let img of images; index as i">
+      <div class="carousel-caption">
+        <h3>My slide {{i + 1}} title</h3>
+      </div>
+      <a href="https://www.google.fr/?q=Number+{{i+1}}" target="_blank" rel="nofollow noopener noreferrer">
+        <div class="picsum-img-wrapper">
+          <img [src]="img" alt="My image {{i + 1}} description" class="crsImg">
+        </div>
+      </a>
+    </ng-template>
+  </ngb-carousel>
+</div> -->
+<!--
+<div class="row">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>First Slide</h3>
+        <p> Angular 10 Carousel Example </p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second Slide</h3>
+        <p> Check out Techiediaries</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second Slide</h3>
+        <p> Check out Techiediaries</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third Slide</h3>
+        <p>for full tutorial...</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div> -->
+<!--
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/random/100x80?sig=1" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/random/100x80?sig=2" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/random/100x80?sig=3" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+<div class='container-fluid1'>
+
+  <div class='col-12'>
+    <ngb-carousel (slide)="slideActivate($event)">
+      <ng-template *ngFor="let img of imageDetails" ngbSlide>
+        <img [src]="img.imgUrl" alt="Random first slide" class="img-fluid crslImg"
+          [routerLink]="img.imgSeg == 1 ? ['/ourWork/society-registration'] : img.imgSeg == 2 ? ['/ourWork/deemedconveyance'] : ['/ourWork/redevelopment']">
+        <div class="carousel-caption" [ngClass]="{'carousel-captionMBL' : service.isMobileDevice}">
+          <!-- {{img.imgTextColor}} -->
+          <!-- <h3 [style]="{color:img.imgTextColor}"
+            [ngClass]="{'dmImgTextSize' : img.imgSeg == '2' && !service.isMobileDevice}">
+            <strong>{{'imgCrslDetails.img' + img.imgSeg |
+              translate}}</strong>
+          </h3> -->
+          <h3 [style]="{color:img.imgTextColor}"
+            [ngClass]="{'dmCNVImgTextSize' : img.imgSeg == '2' && !service.isMobileDevice}">
+            <strong>{{'imgCrslDetails.img' + img.imgSeg |
+              translate}}</strong>
+          </h3>
+          <h3 *ngIf="img.imgSeg == '2'" [style]="{color:img.imgTextColor}"
+            [ngClass]="{'dmImgTextSize' : img.imgSeg == '2'  && !service.isMobileDevice}"><strong>{{'imgCrslDetails.img'
+              + img.imgSeg +
+              'Extra'|
+              translate}}</strong></h3>
+          <!-- <p>This carousel uses customized default values.</p> -->
+        </div>
+      </ng-template>
+      <!-- <ng-template ngbSlide>
+        <img src="../assets/images/Building3.jpg" alt="Random first slide">
+        <div class="carousel-caption">
+          <h3>10 seconds between slides...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img src="../assets/images/Building2.jpg" alt="Random second slide">
+        <div class="carousel-caption">
+          <h3>No mouse events...</h3>
+          <p>This carousel doesn't pause or resume on mouse events</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img src="../assets/images/Building4.jpg" alt="Random third slide">
+        <div class="carousel-caption">
+          <h3>No keyboard...</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <img src="../assets/images/Building1.jpeg" alt="Random fourth slide">
+        <div class="carousel-caption">
+          <h3>And no wrap after last slide.</h3>
+          <p>This carousel uses customized default values.</p>
+        </div>
+      </ng-template> -->
+    </ngb-carousel>
+  </div>
+
+</div>

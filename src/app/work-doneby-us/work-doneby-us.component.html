@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row cnvTitle">
+    <h1><strong>
+        {{"HomeDetails.OurClient.title" | translate}}
+      </strong></h1>
+  </div>
+  <div class="row">
+    <ol class="clntUl">
+      <li *ngFor="let clnt of service.ClientlistData;let i = index;">
+        {{clnt}}
+      </li>
+    </ol>
+  </div>
+
+</div>

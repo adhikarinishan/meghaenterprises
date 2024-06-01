@@ -1,0 +1,118 @@
+<nav class="navbar fixed-top navbar-inverse navbar-expand-lg navbar-dark bg-light navbar-customclass">
+  <div class="container-fluid ">
+    <a class="navbar-brand" routerLink="/home" class="nav-link navbarBrand NavheaderText"><strong>Megha
+        Enterprises</strong></a>
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" [ngClass]="{show : isNavBarCollapsed}">
+      <div class="me-auto"></div>
+      <ul class="navbar-nav rightMarginNav">
+        <li class="nav-item">
+          <a routerLink="/home" (click)="onNavchange()" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}" class="nav-link">
+            {{'navbar.home' | translate}}</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a [routerLink]="['/about']" (click)="onNavchange()" routerLinkActive="active" style="cursor: pointer;"
+            class="nav-link">{{'navbar.OurWork' | translate}}</a>
+        </li> -->
+        <li class="nav-item dropdown dropdown-menu-right" appDropdown>
+          <a class="nav-link dropdown-toggle" [ngClass]="{drpDownName : !service.isMobileDevice}" id="navbarDropdown"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLinkActive="active">
+            {{'navbar.OurWork.title' | translate}}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/society-registration']">{{'navbar.OurWork.subMenu.SocietyRegistration' |
+                translate}}</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <!-- <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/conveyancedeed-and-deemedconveyance']">{{'navbar.OurWork.subMenu.ConveyanceDeedAndDeemedConveyance'
+                | translate}}</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li> -->
+
+            <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/conveyancedeed']">{{'navbar.OurWork.subMenu.ConveyanceDeed'
+                | translate}}</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/deemedconveyance']">{{'navbar.OurWork.subMenu.DeemedConveyance'
+                | translate}}</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/redevelopment']">{{'navbar.OurWork.subMenu.Redevelopment' | translate}}</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item ourWorkList" (click)="onSelectWork()" routerLinkActive="active"
+                [routerLink]="['/ourWork/work-done-by-us']">{{'HomeDetails.OurClient.title' | translate}}</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/about']" (click)="onNavchange()" routerLinkActive="active" style="cursor: pointer;"
+            class="nav-link">{{'navbar.About' | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/contact']" (click)="onNavchange()" routerLinkActive="active" class="nav-link">
+            {{'navbar.Contact' | translate}}</a>
+        </li>
+        <li class="nav-item dropdown dropdown-menu-right" appDropdown>
+          <a class="nav-link dropdown-toggle" [ngClass]="{drpDownName : !service.isMobileDevice}" id="navbarDropdown"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <!-- Select language -->
+            {{selLang}}
+          </a>
+          <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" (click)="onSelectLang('en' , 'English')">English</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" (click)="onSelectLang('hi','Hindi')">Hindi</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" (click)="onSelectLang('mr','Marathi')">Marathi</a></li>
+          </ul> -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li *ngFor="let langs of languages; let i=index">
+              <a class="dropdown-item" style="cursor:pointer;"
+                (click)="onSelectLang(langs.lang, langs.langCode , langs.langName)">{{langs.langName}}</a>
+              <hr *ngIf="languages.length!=i+1" class="dropdown-divider">
+            </li>
+
+          </ul>
+          <!-- <select name="" id="" class="nav-link dropdown-toggl" aria-labelledby="navbarDropdown">
+            <option disabled>Select Oppo Suits</option>
+            <option value="en">English</option>
+            <option value="en">Hindi</option>
+          </select> -->
+        </li>
+        <!-- <li>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" role="button" data-toggle="dropdown">Dropdown link</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>

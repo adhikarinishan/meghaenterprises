@@ -1,0 +1,307 @@
+{
+  "navbar": {
+    "home": "Home",
+    "About": "About US",
+    "Contact": "Contact",
+    "OurWork": {
+      "title": "Our Work",
+      "subMenu": {
+        "SocietyRegistration": "Housing Society's Registration",
+        "ConveyanceDeed": "Conveyance Deed (मोफत मार्गदर्शन)",
+        "DeemedConveyance": "Deemed Conveyance (मोफत मार्गदर्शन)",
+        "Redevelopment": "Redevelopment Consultancy"
+      }
+    }
+  },
+  "connectus": {
+    "toolTip": "Message us"
+  },
+  "contactDetails": {
+    "contactUs": {
+      "contactUsTitle": "CONTACT US",
+      "contactPersonDetails": {
+        "ContactPersonTitle": "CONTACT PERSON",
+        "contactPerson1": {
+          "person1_Name": "Gajanan Patil",
+          "person1_ContactNo1": "+91 9049462000",
+          "person1_ContactNo2": "+91 9320175175"
+        },
+        "contactPerson2": {
+          "person2_Name": "Pankaj Patil",
+          "person2_ContactNo1": "+91 9158618044"
+        }
+      },
+      "OfficeContact": {
+        "title": "Office Contact",
+        "contactOfficePersonDetails": {
+          "ContactNo1": "+91 8446130175",
+          "ContactNo2": "+91 8446330175",
+          "ContactNo3": "+91 8446640175"
+        }
+      },
+      "AddressDetails": {
+        "addressTitle": "ADDRESS",
+        "address": "Row-House No. 25, TagoreNagar Co-Operative Housing Society Ltd, Rahul Estate, Morivali, Ambernath (East) - 421501",
+        "viewOnMap": "Click here to view the location on the map"
+      },
+      "EmailIDDetails": {
+        "emailIDTitle": "EMAIL ID",
+        "emailIDS": {
+          "email1": "",
+          "email2": ""
+        }
+      },
+      "WebSites": {
+        "webSiteTitle": "WEBSITE"
+      }
+    }
+  },
+  "OurWorkDetails": {
+    "title": "Our Work"
+  },
+  "aboutDetails": {
+    "title": "About Us",
+    "welcomeTitle": "Welcome to Megha Enterprises",
+    "welcomeDescription": "Our aim to resolve all your legal problems / issues related to Housing Societies. We guide and help for different services like Society Registrations, Conveyance Deed, Deemed Conveyance, Re-development etc.",
+    "whyChooseUs": {
+      "title": "Why you should trust us",
+      "EFFICIENCY": {
+        "title": "EFFICIENCY",
+        "descriptions": "We help our customers to solve their problems/Queries related to Housing Society with minimum of time and effort."
+      },
+      "RESPONSIBILITY": {
+        "title": "RESPONSIBILITY",
+        "descriptions": "We aim to bring social coordination to all associates through our efforts, which we consider our very first responsibility."
+      },
+      "TRANSPARENCY": {
+        "title": "TRANSPARENCY",
+        "descriptions": "We provide all the information with clarity and dignity. We believe that a crystal clear system help to grow trust and faith for a strong relationship."
+      },
+      "Quality": {
+        "title": "Quality",
+        "descriptions": "We believe in providing quality and transparent services in a short time."
+      }
+    }
+  },
+  "ourWorkDetails": {
+    "title": "About Us"
+  },
+  "footerDetails": {
+    "OurServices": {
+      "title": "Our Services",
+      "SocietyRegistration": "Housing Society's Registration",
+      "ConveyanceDeed": "Conveyance Deed (मोफत मार्गदर्शन)",
+      "DeemedConveyance": "Deemed Conveyance (मोफत मार्गदर्शन)",
+      "Redevelopment": "Redevelopment Consultancy"
+    }
+  },
+  "societyRegistraionDetails": {
+    "title": "Housing Society's Registration",
+    "description": "This is one of the major activities carried out by the Department of Cooperation. Any Cooperative society should be a registered society under Maharashtra Cooperative Societies Act, 1960.  All flat owners to call for meeting and select the Chief Promoter. After selection, the Chief Promoter should first apply for name reservation, and then apply for housing society registration to the Assistant Registrar/Deputy Registrar.",
+    "regProcess": {
+      "title": "Process for Housing Society Registration",
+      "regProcesses": {
+        "proc1": {
+          "title": "Minimum 5 flat owners required to form a society",
+          "desc": "As per society law, minimum five members are required to form a cooperative society."
+        },
+        "proc2": {
+          "title": "Selection of Chief Promoter",
+          "desc": "A provisional committee selects a chief promoter by majority."
+        },
+        "proc3": {
+          "title": "To name the society",
+          "desc": "After selecting the chief promoter, flat owner will decide society name in the provisional committee meeting."
+        },
+        "proc4": {
+          "title": "Application has to be made to the Registration Authority",
+          "desc": "The Chief Promoter should first apply for name reservation to the Assistant Registrar/Deputy Registrar of the Co-operative Society."
+        },
+        "proc5": {
+          "title": "Share capital and Entrance fees",
+          "desc": "The Chief Promoter has to collect Share Capital, Entrance Fees from promoters."
+        },
+        "proc6": {
+          "title": "Opening of bank account",
+          "desc": "After collecting share capital and entrance fees from promoters and after receiving permission for name reservation, a bank account is to be opened in the name of society with the branch of bank permitted by the registrar within 3 months of receiving the name approval."
+        },
+        "proc7": {
+          "title": "Documents required for housing society registration",
+          "desc": ""
+        },
+        "proc8": {
+          "title": "Registration Certificate",
+          "desc": "Registering authority will verify the documents and then they will issue society registration certificate to the society member."
+        }
+      },
+      "RegDocsRequired": {
+        "title": "The documents that need to be submitted to the registering authorities for Housing Society registration are as follows",
+        "docsList": {
+          "doc1": "Promoter members' list",
+          "doc2": "7/12 extract or property card of the land",
+          "doc3": "Two copies of the bye-laws",
+          "doc4": "Society's Bank Balance Certificate",
+          "doc5": "Society Scheme",
+          "doc6": "Form Y, Z and 10 Promoters' Affidavits",
+          "doc7": "Identity Proof of Chief Promoter like Aadhar Card / Pan Card etc (For opening of bank account)",
+          "doc8": "Construction Commencement certificate",
+          "doc9": "Construction Completion Certificate",
+          "doc10": "Development Agreement in case the land is taken for development",
+          "doc11": "Letter of Power of Attorney of the land",
+          "doc12": "All members' - Index II",
+          "doc13": "Agreement copy of any one member",
+          "doc14": "Architect Certificate",
+          "doc15": "Sanctioned plan"
+        }
+      }
+    },
+    "finalWords": "Taking into consideration of various legal aspects based on the requirements, we assist and guide for throughout the process of Society/Apartment registration along with all the documentation required."
+  },
+  "ConveyanceDeedAndDeemedConveyance": {
+    "title": "Conveyance Deed And Deemed Conveyance (मोफत मार्गदर्शन)",
+    "ConveyanceDeedDetails": {
+      "title": "Conveyance Deed",
+      "descr1": "It is a legal document which is used to transfer the title, rights, interest & ownership of land from the builder to the housing society. It is a fundamental right of a co-operative housing society and it's also the duty of a property developer according to provisions under section 10 Amendment 2010 of the Maharashtra Ownership Flat (Regulation of the promotion of construction, sale, management and transfer) Act 1963. According to this section, after completion of project developer has to register the housing society within 4 months and also transfer the title, rights, interest & ownership of land to the housing society within 3 months.",
+      "descr2": "In most of the cases, the builders try to avoid the execution of this document and they try to enjoy the ownership right over the land despite the housing society being formed.",
+      "descr3": "Housing societies don't get property tax bills and other amenities bills in their name, since the ownership title is either in favour of a builder or the first owner of the land.",
+      "descr4": "Most of the old housing societies whose buildings are in bad condition go for redevelopment of the property. They buy additional FSI (floor space index) from market and construct new building after demolishing their old building. This helps the members of housing societies to get new flat at no cost as construction cost is recovered from the sale of additional flats. But this is only possible if conveyance deed has been executed in favour of the housing societies and also 7/12 extract property card is being executed in favour of society."
+    },
+    "DeemedConveyanceDetails": {
+      "title": "Deemed Conveyance",
+      "descr1": "Deemed Conveyance is an Amendment under sub- section (3) of section 11 of the Maharashtra Ownership Flats (Regulation of the Promotion of Construction, Sale, Management and Transfer) Act, 1963.",
+      "descr2": "Deemed conveyance is been executed when a builder/developer is not ready to transfer the ownership of the land. In such circumstances, the government transfers the ownership of the land to the society.",
+      "descr3": "",
+      "descr4": "",
+      "advantages": {
+        "title": "Advantages of Deemed Conveyance",
+        "advtngs": {
+          "adv1": "Property will be free and marketable.",
+          "adv2": "Society will get permission for reconstruction from the Planning Authorities.",
+          "adv3": "Society will get proper and legal title of the property in the name of the Society.",
+          "adv4": "Society can receive additional Revenue of Rent from Advertising Hoarding & TeleCommunication Tower etc.",
+          "adv5": "Society can raise the loan for repairs and reconstruction by mortgage of society.",
+          "adv6": "Society can take the benefit of TDR for redevelopment."
+        }
+      },
+      "RegDocsRequired": {
+        "title": "List of Documents for Deemed Conveyance : ",
+        "docsList": {
+          "doc1": "Deemed Conveyance Application",
+          "doc2": "Society Registration Certificate",
+          "doc3": "7/12 extract or Property Card (within 3 months of submission of application)",
+          "doc4": "Notarization of self-affidavit on stamp paper of Rs.100 / - in Appendix-4",
+          "doc5": "Rs. 2000 / - court fee stamp or online fee",
+          "doc6": "Development Agreement",
+          "doc7": "Non-Agricultural Orders (NA Order)",
+          "doc8": "Approved plan (the corporation / council /gram panchayat) from competent officer of the organization",
+          "doc9": "Construction Commencement Certificate",
+          "doc10": "Construction Completion Certificate - Occupation Certificate",
+          "doc11": "",
+          "doc12": "Title Certificate",
+          "doc13": "Certificate of Architect",
+          "doc14": "Notice sent by the organization to the developer / land owner",
+          "doc15": "List of  Flats owners / Flats in the Society, Total Members, Stamp Fee and Registration Fee paid",
+          "doc16": "Resolution passed in Special AGM /AGM (Annual General Meeting) authorizing the board of directors to assist Deemed Conveyance process",
+          "doc17": "Draft Agreement",
+          "doc18": "Copy of agreement between developer and any one  flat owner",
+          "doc19": "Power of attorney/ Vakalatnama issued by the society to the representative",
+          "doc20": "A Copy of Index II from all flat owner",
+          "doc21": "Copy of online application no. 7 received Deemed Conveyance (D.C NO.)"
+        }
+      }
+    },
+    "finalWords": "We have an in-depth understanding of the legal and government process. For this we can provide free guidance. We can provide proper legal advice and assistance to get your conveyance deed executed. We help you throughout the execution process with all the paperwork and also coordinate with the government departments to finalize the implementation of Conveyance Deed or Deemed Conveyance. We can help to get land ownership right."
+  },
+  "redevelopmentDetails": {
+    "title": "Redevelopment Consultancy",
+    "description": {
+      "descr1": "The housing societies containing old buildings may have many problem like lack of services such as security, cleaning, unavailability of common facilities like society office, proper playing area for children in the compound, continuous leakage problems, absence of elevators in tall buildings, poor interior planning of rooms. And low resale value on sale of flat due to the poor condition of the buildings.",
+      "descr2": "Redevelopment is the process of constructing a new building after destroying an existed one. It requires an extremely dynamic and cautious approach from the housing society. Redevelopment of apartment complex or residential or commercial properties has now presumed great importance.",
+      "descr3": "Today the societies are preferring redevelopment to repair. Members also get benefits in concern of money as well as farther area."
+    },
+    "selfRedevlpment": {
+      "title": "Self-redevelopment of a housing society",
+      "description": {
+        "descr1": "Nowadays, most of the societies have started to opt for self-redevelopment, it is a process in which the builder/real estate developer is not involved in the equation at all. Societies hire architects/contractors and perform the whole process by themselves. By choosing this option, the profit remains within the hands of the society and therefore the possibility of fraud, delayed construction, loss of FSI (Floor Space Index) doesn't occur.",
+        "descr2": "Because of this, members end up getting a higher incremental carpet area and the entire profit on the project gets divided equally among the members.",
+        "descr3": "As redevelopment of a building involves dealing with large sums of money and awarding contracts to various people, it is important for the members of the housing society to choose persons of integrity to be members of managing committee.",
+        "descr4": "There have been numerous instances of allegations of malpractices by the managing committee members, leading to delays in the completion of the project and cost escalations."
+      }
+    },
+    "DocsRequired": {
+      "title": "List of Documents required for redevelopment",
+      "docsList": {
+        "doc1": "Society registration certificate",
+        "doc2": "Title certificate",
+        "doc3": "The original building plan",
+        "doc4": "Sale deed",
+        "doc5": "Structural audit report",
+        "doc6": "A certified property card ",
+        "doc7": "Conveyance deed (necessary for self-development projects)",
+        "doc8": "Redevelopment agreement",
+        "doc9": "Copy of new approved plan",
+        "doc10": "Flat-wise carpet area list",
+        "doc11": "Development Plan (DP) remark (details of the land and its surrounding area)",
+        "doc12": "Water bill",
+        "doc13": "Electricity bill",
+        "doc14": ""
+      }
+    },
+    "benefitOfRedvlmnt": {
+      "title": "Benefits of redevelopment",
+      "benefits": {
+        "benefit1": "The repair work only increases the life of the building by 4 to 5 years but the problems can re-occur and members have to spend money again for repair works. In case of redevelopment, new building will be construct for which no major repairs are required for a longer period. Redevelopment is suggested for buildings which are older than 15-20 years.",
+        "benefit2": "The old buildings cannot withstand new climatic and geographic conditions because they are designed with old construction norms. In redevelopment, a new building is constructed which may withstand new climatic and geographic conditions considering that the latest safety measures are adopted. In redevelopment, the builder can provide additional facilities like lift, gym, swimming pool, playground etc.",
+        "benefit3": "In old building the steel inside concrete beams and column starts corroding after 15-20 years which can't be treated in repairs. This problem doesn't arise in redeveloped building because the building is reconstructed by demolishing existing old building and its material.",
+        "benefit4": "In redevelopment, society members get benefits in terms of money as well as additional area."
+      }
+    }
+  },
+  "HomeDetails": {
+    "title1": "Housing Society's Registration",
+    "title2": "Megha Enterprises",
+    "descriontion": {
+      "descr1": "It is a membership-based legal entity made of one or more residential buildings.",
+      "descr2": "You become a member by buying shares in the housing co-operative. In return, as a member, you get the right to occupy a housing unit in the society, be it an apartment or a house.",
+      "descr3": "We are not considered to be owner of the land only having our flat registration.",
+      "descr4": "First we must get housing society registration and then society conveyance deed or deemed conveyance for land ownership. After completion of the above process, we will become the owner of the land.",
+      "descr5": "has the knowhow for the management, formation, and maintenance of cooperative housing societies.",
+      "descr6": "We are specialized in Housing Society Registration, Conveyance Deed and Deemed Conveyance.",
+      "descr7": "We are equipped with the Legal knowledge of the tasks and processes that help to conclude the transition process smoothly. We also take care that there would be no obstacles the future legal processes.",
+      "descr8": "We act as balanced and trustworthy mediator between developers and housing societies. We help to resolve various legal, operational issues and assist them to comply with government regulations."
+    },
+    "weAreExpertIn": {
+      "title": "We are Expert in",
+      "expertsIn": {
+        "exprt1": {
+          "title": "Housing Society's Registration",
+          "descr": "We handels all legal processes related to Society Registration."
+        },
+        "exprt2": {
+          "title": "Conveyance Deed (मोफत मार्गदर्शन)",
+          "descr": "We provide consultation and also help in Conveyance Deed process."
+        },
+        "exprt3": {
+          "title": "Redevelopment Consultancy",
+          "descr": "We guide society members and developers through the legal documentation procedure in a hassle-free manner."
+        },
+        "exprt4": {
+          "title": "Deemed Conveyance (मोफत मार्गदर्शन)",
+          "descr": "We provide consultation and also help in Deemed Conveyance process."
+        }
+      }
+    },
+    "readMore": {
+      "title": "Read More"
+    },
+    "OurClient": {
+      "title": "Work done by us"
+    }
+  },
+  "imgCrslDetails": {
+    "img1": "Housing Society Registration",
+    "img2": "Deemed Conveyance",
+    "img3": "Redevelopment Consultancy",
+    "img2Extra": "(मोफत मार्गदर्शन)"
+  }
+}

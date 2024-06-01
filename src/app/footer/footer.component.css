@@ -1,0 +1,57 @@
+/* .footer_bottom {
+  color: #fff;
+} */
+
+.footer_bottom p {
+  text-align: center;
+  color: #fff;
+}
+/* .footer_bottom {
+  margin-top: 20px;
+} */
+
+.footerSticky {
+  background-color: #17173f;
+}
+
+ul li a {
+  color: #fff;
+}
+.footerTitle {
+  color: #fff;
+}
+
+.footerContent {
+  padding-top: 80px;
+  /* padding-bottom: 10px; */
+}
+.ftrCopyRight {
+  color: #fff;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+.innerFotContnt {
+  color: #fff;
+  /* margin-left: 83px; */
+  padding-bottom: 24px;
+}
+/* .ftrServices {
+  margin-left: 43px;
+} */
+/* .addrsTitle {
+  margin-left: 43px;
+}
+.addrs {
+  margin-left: 43px;
+} */
+/* .contactTitle {
+  margin-left: 43px;
+}
+
+.contactDtls {
+  margin-left: 43px;
+} */
+
+.servicesList ul {
+  margin-left: -45px;
+}

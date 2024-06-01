@@ -1,0 +1,92 @@
+<div class="container">
+
+  <app-imagecrousal></app-imagecrousal>
+  <div class="row">
+    <h2><strong>{{"HomeDetails.title1" | translate}}</strong></h2>
+  </div>
+  <div class="row">
+    <div class="col-md-12" [ngClass]="{hmdtClass : service.isMobileDevice}">
+      <!-- <h3>{{"HomeDetails.title1" | translate}}</h3> -->
+      <p>
+        <span>{{"HomeDetails.descriontion.descr1" | translate}}</span>
+        <br>
+        <span>
+          {{"HomeDetails.descriontion.descr2" | translate}}
+        </span>
+        <br>
+        <span>
+          {{"HomeDetails.descriontion.descr3" | translate}}</span>
+        <br>
+        <span>
+          {{"HomeDetails.descriontion.descr4" | translate}}
+        </span>
+      </p>
+      <p class="finlWord">
+        <span>
+          <b><strong>{{"HomeDetails.title2" | translate}}</strong></b>{{"HomeDetails.descriontion.descr5" | translate}}
+        </span>
+
+      </p>
+      <p class="finlWord">
+        {{"HomeDetails.descriontion.descr6" | translate}}
+        {{"HomeDetails.descriontion.descr7" | translate}}
+        {{"HomeDetails.descriontion.descr8" | translate}}
+      </p>
+
+    </div>
+  </div>
+  <div class="row text-center exprt">
+    <h1><strong>
+        <p>{{"HomeDetails.weAreExpertIn.title" | translate}} </p>
+      </strong></h1>
+  </div>
+
+  <div class="row exprtRow">
+    <!--ADD CLASSES HERE d-flex align-items-stretch-->
+    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+      <div class="card">
+        <div class="d-flex justify-content-center">
+          <i class="fas fa-edit fa-3x Iconcenter"></i>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>{{"HomeDetails.weAreExpertIn.expertsIn.exprt1.title" | translate}}</strong>
+          </h5>
+          <p class="card-text mb-4">{{"HomeDetails.weAreExpertIn.expertsIn.exprt1.descr" | translate}}</p>
+          <!-- <a class="btn btn-primary Anchorbutton" [routerLink]="['/ourWork/society-registration']">Read More</a> -->
+          <a [routerLink]="['/ourWork/society-registration']"
+            class="btn btn-primary mt-auto align-self-start">{{"HomeDetails.readMore.title" | translate}}</a>
+        </div>
+      </div>
+    </div>
+    <!--ADD CLASSES HERE d-flex align-items-stretch-->
+    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+      <div class="card">
+        <div class="d-flex justify-content-center">
+          <i class="fas fa-home fa-3x Iconcenter"></i>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>{{"HomeDetails.weAreExpertIn.expertsIn.exprt2.title" | translate}}</strong>
+          </h5>
+          <p class="card-text mb-4">{{"HomeDetails.weAreExpertIn.expertsIn.exprt2.descr" | translate}}</p>
+          <a [routerLink]="['/ourWork/conveyancedeed-and-deemedconveyance']"
+            class="btn btn-primary mt-auto align-self-start">{{"HomeDetails.readMore.title" | translate}}</a>
+        </div>
+      </div>
+    </div>
+    <!--ADD CLASSES HERE d-flex align-items-stretch-->
+    <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+      <div class="card">
+        <div class="d-flex justify-content-center">
+          <i class="far fa-building fa-3x Iconcenter"></i>
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>{{"HomeDetails.weAreExpertIn.expertsIn.exprt3.title" | translate}}</strong>
+          </h5>
+          <p class="card-text mb-4">{{"HomeDetails.weAreExpertIn.expertsIn.exprt3.descr" | translate}}</p>
+          <a [routerLink]="['/ourWork/redevelopment']"
+            class="btn btn-primary mt-auto align-self-start">{{"HomeDetails.readMore.title" | translate}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

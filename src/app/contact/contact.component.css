@@ -1,0 +1,32 @@
+.review-box {
+  background-color: red;
+  display: none;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 600px;
+  height: 400px;
+}
+
+.gmap_iframe {
+  width: 600px !important;
+  height: 400px !important;
+}
+/* div.place-card .place-card-large {
+  display: none !important;
+} */
+.mapRow {
+  margin-bottom: 40px;
+}
+.icn {
+  font-size: 20px;
+}
