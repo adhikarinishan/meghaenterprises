@@ -172,21 +172,40 @@
     <div class="col-sm-4 col-md-3 item innerFotContnt">
       <h3 class="footerTitle" [ngClass]="{contactTitle : service.isMobileDevice}">
         {{'contactDetails.contactUs.contactUsTitle' | translate}}</h3>
-      <span
-        [ngClass]="{contactDtls : service.isMobileDevice}">{{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_Name'
-        |
-        translate}} :-
-        {{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_ContactNo1' | translate}} , <br />
-        {{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_ContactNo2' | translate}}
-      </span>
       <br>
       <span
-        [ngClass]="{contactDtls : service.isMobileDevice}">{{'contactDetails.contactUs.contactPersonDetails.contactPerson2.person2_Name'
-        |
-        translate}} :-
+        [ngClass]="{contactDtls : service.isMobileDevice}"><b>{{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_Name'
+          |
+          translate}} </b>
+        <br>
+        <span>
+          {{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_ContactNo1' | translate}} , <br />
+          {{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_ContactNo2' | translate}}
+        </span>
+      </span>
+
+      <br>
+      <p></p>
+      <span
+        [ngClass]="{contactDtls : service.isMobileDevice}"><b>{{'contactDetails.contactUs.contactPersonDetails.contactPerson2.person2_Name'
+          |
+          translate}} </b>
+        <br>
         {{'contactDetails.contactUs.contactPersonDetails.contactPerson2.person2_ContactNo1' | translate}}
       </span>
+
+      <br>
+      <p></p>
+      <span
+        [ngClass]="{contactDtls : service.isMobileDevice}"><b>{{'contactDetails.contactUs.contactPersonDetails.contactPerson3.person3_Name'
+          |
+          translate}} </b>
+        <br>
+        {{'contactDetails.contactUs.contactPersonDetails.contactPerson3.person3_ContactNo1' | translate}}
+      </span>
+
       <br><br>
+
       <h5 class="footerTitle" [ngClass]="{contactTitle : service.isMobileDevice}">
         {{'contactDetails.contactUs.OfficeContact.title' | translate}} </h5>
       <span>
