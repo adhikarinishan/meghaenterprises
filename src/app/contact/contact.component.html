@@ -30,12 +30,15 @@
   <div class="row">
     <div class="col-md-7 ">
       <h1>{{'contactDetails.contactUs.contactUsTitle' | translate}}</h1>
-      <p><strong>
+      <br>
+      <div><strong>
           <!-- <i class="bi bi-phone icn"></i>  -->
           <!-- <i-bs name="telephone" width="30" height="35"></i-bs> -->
-          <i class="fas fa-phone-alt fa-2x"></i>
-          {{'contactDetails.contactUs.contactPersonDetails.ContactPersonTitle' | translate}}
-        </strong><br>
+          <h4><i class="fas fa-phone-alt fa-2x"></i>
+            {{'contactDetails.contactUs.contactPersonDetails.ContactPersonTitle' | translate}}
+          </h4>
+        </strong>
+
         <!-- Gajanan Patil - +91 9049462000, <br>Mr. PQR XYZ - +919320175175 -->
         {{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_Name' | translate}} :-
         <span>
@@ -59,9 +62,11 @@
 
         <br><br>
 
-        <strong><i class="fas fa-tty fa-2x"></i>
-          {{'contactDetails.contactUs.OfficeContact.title' | translate}} </strong>
-        <br>
+        <strong>
+          <h4><i class="fas fa-tty fa-2x"></i>
+            {{'contactDetails.contactUs.OfficeContact.title' | translate}} </h4>
+        </strong>
+
         <span>
           {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.ContactNo1' | translate}} , <br />
           {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.ContactNo2' | translate}}, <br>
@@ -73,33 +78,88 @@
           <!-- <i-bs name="pin-map" width="30" height="35"></i-bs> -->
           <!-- <img src="/assets/map-withoutbackgroud_1.png/" height="40" width="35" alt=""> -->
 
-          <i class="fas fa-map-marker-alt fa-2x"></i>
-          {{'contactDetails.contactUs.AddressDetails.addressTitle' | translate}}
-          <span>
+          <h4>
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            {{'contactDetails.contactUs.AddressDetails.addressTitle' | translate}}
+          </h4>
+          <!-- <span>
             <a target="_blank" style="text-decoration: none;cursor: pointer;"
               href="https://www.google.com/maps/dir//megha+enterprises+ambernath/@19.1961201,73.1977344,18z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x3be7930c083fcdc9:0x4ca87a047967cb82!3e0">
-              {{'contactDetails.contactUs.AddressDetails.viewOnMap' | translate}}
+              {{'contactDetails.contactUs.AddressDetails.mainAddress.viewOnMap' | translate}}
               <strong><i class="fas fa-walking fa-2x"></i></strong>
             </a>
-          </span>
+          </span> -->
         </strong><br>
         <!-- Plot No : 86/1/B, Opp. Old Mardia Steel Factory, Nr. Kisan Brother Weigh Bridge, Phase - 1, Vatva G.I.D.C,
         Ahmedabad-382445. -->
-        {{'contactDetails.contactUs.AddressDetails.address' | translate}}
+        <!-- {{'contactDetails.contactUs.AddressDetails.mainAddress.address' | translate}} -->
+
+        <dl>
+          <dt>
+            <h5><span>
+                <b>{{'contactDetails.contactUs.AddressDetails.mainAddress.addressType' | translate}}</b></span>
+            </h5>
+          </dt>
+          <dd>
+            <span>
+              {{'contactDetails.contactUs.AddressDetails.mainAddress.address' | translate}}
+            </span>
+            <br>
+            <span>
+              <a target="_blank" style="text-decoration: none;cursor: pointer;"
+                href="https://www.google.com/maps/dir//megha+enterprises+ambernath/@19.1961201,73.1977344,18z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x3be7930c083fcdc9:0x4ca87a047967cb82!3e0">
+                <b>{{'contactDetails.contactUs.AddressDetails.mainAddress.viewOnMap' | translate}} </b>
+                <strong><i class="fas fa-walking fa-2x"></i></strong>
+              </a>
+            </span>
+          </dd>
+          <dt class="clsBranch">
+            <h5><span>
+                <b>{{'contactDetails.contactUs.AddressDetails.branches.addressType' | translate}}</b></span></h5>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <h6><span>
+                    <b>{{'contactDetails.contactUs.AddressDetails.branches.branch1.addressTitle' |
+                      translate}}</b></span>
+                </h6>
+              </dt>
+              <dd>
+                <span>
+                  {{'contactDetails.contactUs.AddressDetails.branches.branch1.address' | translate}}
+                </span>
+                <br>
+                <span>
+                  <a target="_blank" style="text-decoration: none;cursor: pointer;"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Plot No 4 Ayodhya Nagar ,Near Hanuman Mandir,old MIDC, Jalgaon, 425003">
+                    <b>{{'contactDetails.contactUs.AddressDetails.mainAddress.viewOnMap' | translate}} </b>
+                    <strong><i class="fas fa-walking fa-2x"></i></strong>
+                  </a>
+                </span>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
+
+        <br>
+        <strong>
+          <h4>
+            <!-- <i class="bi bi-envelope-open icn"></i> -->
+            <!-- <i-bs name="envelope-open" width="30" height="35"></i-bs> -->
+            <i class="fas fa-envelope-open fa-2x"></i>
+            {{'contactDetails.contactUs.EmailIDDetails.emailIDTitle' | translate}}:
+          </h4>
+        </strong>
+        <span>megha@meghaenterprises.com</span>
         <br><br>
         <strong>
-          <!-- <i class="bi bi-envelope-open icn"></i> -->
-          <!-- <i-bs name="envelope-open" width="30" height="35"></i-bs> -->
-          <i class="fas fa-envelope-open fa-2x"></i>
-          {{'contactDetails.contactUs.EmailIDDetails.emailIDTitle' | translate}}:
-        </strong><br>
-        megha@meghaenterprises.com
-        <br><br>
-        <strong>
-          <i class="fas fa-globe fa-2x"></i> {{'contactDetails.contactUs.WebSites.webSiteTitle' | translate}}:
-        </strong><br>
-        www.meghaenterprises.com
-      </p>
+          <h4>
+            <i class="fas fa-globe fa-2x"></i> {{'contactDetails.contactUs.WebSites.webSiteTitle' | translate}}:
+          </h4>
+        </strong>
+        <span>www.meghaenterprises.com</span>
+      </div>
       <div class="clearfix"></div>
     </div>
     <!-- <div class="col-md-5"><img src="http://decorasales.com/images/contact_image.png"></div> -->

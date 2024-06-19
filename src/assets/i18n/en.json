@@ -45,8 +45,19 @@
       },
       "AddressDetails": {
         "addressTitle": "ADDRESS",
-        "address": "Row-House No. 25, TagoreNagar Co-Operative Housing Society Ltd, Rahul Estate, Morivali, Ambernath (East) - 421501",
-        "viewOnMap": "Click here to view the location on the map"
+        "mainAddress": {
+          "addressType": "Main Address",
+          "address": "Row-House No. 25, TagoreNagar Co-Operative Housing Society Ltd, Rahul Estate, Morivali, Ambernath (East) - 421501",
+          "viewOnMap": "Click here to view the location on the map"
+        },
+        "branches": {
+          "addressType": "Branches",
+          "branch1": {
+            "addressTitle": "JALGAON",
+            "address": "Plot No 4 Ayodhya Nagar ,Near Hanuman Mandir,old MIDC , Jalgaon - 425003",
+            "viewOnMap": "Click here to view the location on the map"
+          }
+        }
       },
       "EmailIDDetails": {
         "emailIDTitle": "EMAIL ID",

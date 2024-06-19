@@ -135,7 +135,8 @@
   </div>
   <div class="row justify-content-center footerContent">
     <div class="col-sm-4 col-md-3 item">
-      <h3 class="footerTitle ftrServices">{{'footerDetails.OurServices.title' | translate}}</h3>
+      <h3 class="footerTitle ftrServices"><b>{{'footerDetails.OurServices.title' | translate}}</b></h3>
+      <br>
       <div class="servicesList">
         <ul>
           <li class="nav-item"><a class="nav-link"
@@ -158,20 +159,59 @@
     </div>
     <div class="col-sm-4 col-md-3 item innerFotContnt">
       <h3 class="footerTitle" [ngClass]="{addrsTitle : service.isMobileDevice}">
-        {{'contactDetails.contactUs.AddressDetails.addressTitle' | translate}}</h3>
-      <span>
-        <a target="_blank" style="text-decoration: none;cursor: pointer;color: #fff;"
-          href="https://www.google.com/maps/dir//megha+enterprises+ambernath/@19.1961201,73.1977344,18z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x3be7930c083fcdc9:0x4ca87a047967cb82!3e0">
-          <span [ngClass]="{addrs : service.isMobileDevice}"><i class="fas fa-map-marker-alt fa-2x"></i>
-            {{'contactDetails.contactUs.AddressDetails.address' | translate}}</span>
-        </a>
-      </span>
+        <b>{{'contactDetails.contactUs.AddressDetails.addressTitle' | translate}}</b>
+      </h3>
+      <br>
+      <dl>
+        <dt>
+          <h5><span [ngClass]="{addrs : service.isMobileDevice}">
+              <b>{{'contactDetails.contactUs.AddressDetails.mainAddress.addressType' | translate}}</b></span>
+          </h5>
+        </dt>
+        <dd>
+          <span>
+            <a target="_blank" style="text-decoration: none;cursor: pointer;color: #fff;"
+              href="https://www.google.com/maps/dir//megha+enterprises+ambernath/@19.1961201,73.1977344,18z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x3be7930c083fcdc9:0x4ca87a047967cb82!3e0">
+              <span [ngClass]="{addrs : service.isMobileDevice}"><i class="fas fa-map-marker-alt fa-2x"></i>
+                {{'contactDetails.contactUs.AddressDetails.mainAddress.address' | translate}}</span>
+            </a>
+          </span>
+        </dd>
+        <dt class="clsBranch">
+          <h5><span [ngClass]="{addrs : service.isMobileDevice}">
+              <b>{{'contactDetails.contactUs.AddressDetails.branches.addressType' | translate}}</b></span></h5>
+        </dt>
+        <dd>
+          <dl>
+            <dt>
+              <h6><span [ngClass]="{addrs : service.isMobileDevice}">
+                  <b>{{'contactDetails.contactUs.AddressDetails.branches.branch1.addressTitle' | translate}}</b></span>
+              </h6>
+            </dt>
+            <dd>
+              <span>
+                <a target="_blank" style="text-decoration: none;cursor: pointer;color: #fff;"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Plot No 4 Ayodhya Nagar ,Near Hanuman Mandir,old MIDC, Jalgaon, 425003">
+                  <span [ngClass]="{addrs : service.isMobileDevice}"><i class="fas fa-map-marker-alt fa-2x"></i>
+                    {{'contactDetails.contactUs.AddressDetails.branches.branch1.address' | translate}}</span>
+                </a>
+              </span>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+
+
+
+      <br>
+
       <!-- <span [ngClass]="{addrs : service.isMobileDevice}"><i class="fas fa-map-marker-alt fa-2x"></i>
         {{'contactDetails.contactUs.AddressDetails.address' | translate}}</span> -->
     </div>
     <div class="col-sm-4 col-md-3 item innerFotContnt">
       <h3 class="footerTitle" [ngClass]="{contactTitle : service.isMobileDevice}">
-        {{'contactDetails.contactUs.contactUsTitle' | translate}}</h3>
+        <b>{{'contactDetails.contactUs.contactUsTitle' | translate}}</b>
+      </h3>
       <br>
       <span
         [ngClass]="{contactDtls : service.isMobileDevice}"><b>{{'contactDetails.contactUs.contactPersonDetails.contactPerson1.person1_Name'
