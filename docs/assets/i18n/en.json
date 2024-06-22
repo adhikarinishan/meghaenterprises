@@ -38,15 +38,26 @@
       "OfficeContact": {
         "title": "Office Contact",
         "contactOfficePersonDetails": {
-          "ContactNo1": "+91 8446130175",
-          "ContactNo2": "+91 8446330175",
-          "ContactNo3": "+91 8446640175"
+          "mainOffice": {
+            "officeType": "Main Office",
+            "ContactNo1": "+91 8446130175",
+            "ContactNo2": "+91 8446330175",
+            "ContactNo3": "+91 8446640175"
+          },
+          "branches": {
+            "officeType": "Branches",
+            "branch1": {
+              "branchName": "JALGAON",
+              "ContactPerson1": "Samadhan Barakale",
+              "ContactNo1": "+91 9172630175"
+            }
+          }
         }
       },
       "AddressDetails": {
         "addressTitle": "ADDRESS",
         "mainAddress": {
-          "addressType": "Main Address",
+          "addressType": "Main Office",
           "address": "Row-House No. 25, TagoreNagar Co-Operative Housing Society Ltd, Rahul Estate, Morivali, Ambernath (East) - 421501",
           "viewOnMap": "Click here to view the location on the map"
         },
