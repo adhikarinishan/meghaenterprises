@@ -248,13 +248,59 @@
 
       <h5 class="footerTitle" [ngClass]="{contactTitle : service.isMobileDevice}">
         {{'contactDetails.contactUs.OfficeContact.title' | translate}} </h5>
-      <span>
+      <!-- <span>
         {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.ContactNo1' | translate}} , <br />
         {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.ContactNo2' | translate}}, <br>
         {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.ContactNo3' | translate}}
-      </span>
+      </span> -->
+
+
+      <dl>
+        <dt>
+          <h5><span>
+              <b>{{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.mainOffice.officeType' |
+                translate}}</b></span>
+          </h5>
+        </dt>
+        <dd>
+          <span>
+            {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.mainOffice.ContactNo1' | translate}}
+            , <br />
+            {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.mainOffice.ContactNo2' | translate}},
+            <br>
+            {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.mainOffice.ContactNo3' | translate}}
+          </span>
+        </dd>
+        <dt class="clsBranch">
+          <h5><span>
+              <b>{{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.branches.officeType' |
+                translate}}</b></span></h5>
+        </dt>
+        <dd>
+          <dl>
+            <dt>
+              <h6><span>
+                  <b>{{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.branches.branch1.branchName'
+                    |
+                    translate}}</b></span>
+              </h6>
+            </dt>
+            <dd>
+              <span>
+                {{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.branches.branch1.ContactNo1' |
+                translate}}
+                (<b>{{'contactDetails.contactUs.OfficeContact.contactOfficePersonDetails.branches.branch1.ContactPerson1'
+                  |
+                  translate}}</b>)
+              </span>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+
+
+      <br>
       <span>
-        <br><br>
         <strong>
           <!-- <i class="bi bi-envelope-open icn"></i> -->
           <!-- <i-bs name="envelope-open" width="30" height="35"></i-bs> -->
