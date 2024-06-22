@@ -45,7 +45,7 @@
             "ContactNo3": "+91 8446640175"
           },
           "branches": {
-            "officeType": "Branches",
+            "officeType": "Branch",
             "branch1": {
               "branchName": "JALGAON",
               "ContactPerson1": "Samadhan Barakale",

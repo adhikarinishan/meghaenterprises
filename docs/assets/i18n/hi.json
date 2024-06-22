@@ -27,7 +27,7 @@
           "person1_ContactNo2": "+९१ ९३२०१७५१७५"
         },
         "contactPerson2": {
-          "person2_Name": "ॲड. बालासाहेब वरपे",
+          "person2_Name": "ॲड. बालासाहेब वर्पे",
           "person2_ContactNo1": "+९१ ९८६९०२१४९७"
         },
         "contactPerson3": {
@@ -45,7 +45,7 @@
             "ContactNo3": "+९१ ८४४६६४०१७५"
           },
           "branches": {
-            "officeType": "शाखाओं",
+            "officeType": "शाखा",
             "branch1": {
               "branchName": "जलगांव",
               "ContactPerson1": "समाधान बरकले",
